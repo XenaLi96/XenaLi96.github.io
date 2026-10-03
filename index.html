@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f6">
+  <meta name="description" content="Xi Li is a Ph.D. researcher at UC Irvine working on computational pathology, spatial genomics, and multimodal biomedical AI.">
+  <meta property="og:title" content="Xi Li — Computational Pathology & Spatial Genomics">
+  <meta property="og:description" content="Research, publications, and experience at the intersection of tissue morphology, molecular biology, and machine learning.">
+  <meta property="og:type" content="website">
+  <title>Xi Li — Research & Publications</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="wordmark" href="#about" aria-label="Xi Li, home">Xi Li<span class="wordmark-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+      <nav id="navigation" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#experience">Experience</a>
+        <a class="nav-cv" href="#cv">CV / Résumé</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="intro" id="about" aria-labelledby="intro-title">
+      <div class="intro-main">
+        <p class="eyebrow">COMPUTER SCIENCE · UC IRVINE</p>
+        <h1 id="intro-title">Xi Li<span class="name-dot">.</span></h1>
+        <p class="intro-role">Ph.D. researcher in computational pathology<br class="desktop-break"> and spatial genomics.</p>
+        <p class="intro-text">I build machine-learning methods that connect <strong>what tissue looks like</strong> with <strong>what its cells are doing</strong>—from histology-to-gene prediction to spatial modeling and reliable biomedical AI.</p>
+        <div class="intro-links">
+          <a href="mailto:xil43@uci.edu">Email</a>
+          <a href="https://github.com/XenaLi96">GitHub</a>
+          <a href="assets/cv/Xi_Li_Academic_CV.pdf" download>Academic CV <span class="file-label">PDF</span></a>
+        </div>
+      </div>
+      <figure class="intro-photo">
+        <img src="assets/images/xi-li.jpg" width="2160" height="2620" alt="Xi Li" fetchpriority="high" decoding="async">
+      </figure>
+    </section>
+
+    <section class="news-strip" aria-labelledby="news-title">
+      <h2 class="news-label" id="news-title">News</h2>
+      <ul class="news-list" role="list">
+        <li><span class="news-star" aria-hidden="true">🌟</span><p><strong>sMMC-22M</strong> accepted as a poster at <strong>NeurIPS 2026</strong>.</p></li>
+        <li><span class="news-star" aria-hidden="true">🌟</span><p><strong>TargetSage</strong> accepted as a poster at <strong>NeurIPS 2026</strong>.</p></li>
+        <li><span class="news-star" aria-hidden="true">🌟</span><p>Gave a talk at the <strong>SCORCH meeting</strong>.</p></li>
+        <li><span class="news-star" aria-hidden="true">🌟</span><p><strong>STMoE</strong> published at <strong>CIKM 2026</strong>.</p></li>
+      </ul>
+    </section>
+
+    <section class="section" id="research" aria-labelledby="research-title">
+      <div class="section-heading"><div><p class="eyebrow">SELECTED WORK</p><h2 id="research-title">Research highlights</h2></div><a class="quiet-link" href="#publications">All publications</a></div>
+      <div class="research-grid">
+        <article class="research-card">
+          <div class="card-visual"><img src="assets/images/stmoe.svg" width="640" height="360" alt="Conceptual STMoE pipeline: local and tissue-scale histology feed a mixture of experts to predict cell-level gene expression."></div>
+          <div class="card-body"><p class="card-topic">HISTOLOGY → MOLECULAR STATE</p><h3>STMoE</h3><p>Predicting single-cell gene expression from histology with multi-scale image context and organ-specialized experts.</p><div class="card-bottom"><span class="badge accepted">CIKM 2026 · Accepted</span><a href="https://github.com/aicb-ZhangLabs/STMoE">Code</a></div></div>
+        </article>
+        <article class="research-card">
+          <div class="card-visual"><img src="assets/images/smmc.svg" width="640" height="360" alt="Conceptual dataset diagram: histology and expression are aligned by cell, with patient, study, and assay context retained."></div>
+          <div class="card-body"><p class="card-topic">DATASETS & EVALUATION</p><h3>sMMC-22M</h3><p>A cell-aligned histology–transcriptomics resource and context-aware benchmark for multimodal biomedical learning.</p><div class="card-bottom"><span class="badge accepted">NeurIPS 2026 · Accepted poster</span><a href="#pub-smmc">Details</a></div></div>
+        </article>
+        <article class="research-card">
+          <div class="card-visual"><img src="assets/images/muse.svg" width="640" height="360" alt="Conceptual MUSE diagram: multiple spatial transcriptomics sections connect to a shared representation while preserving section context."></div>
+          <div class="card-body"><p class="card-topic">SPATIAL REPRESENTATION LEARNING</p><h3>MUSE</h3><p>Joint analysis of multiple spatial-transcriptomics sections to learn shared structure across tissue slices.</p><div class="card-bottom"><span class="badge accepted">CIKM 2025 · Co-first author</span><a href="https://github.com/RRRussell/MUSE">Code</a></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading"><div><p class="eyebrow">PAPERS & MANUSCRIPTS</p><h2 id="publications-title">Publications</h2></div><p class="heading-note">* Equal contribution</p></div>
+      <div class="publication-filters" role="group" aria-label="Filter publications" hidden>
+        <button type="button" class="active" data-filter="all" aria-pressed="true">All <span>11</span></button>
+        <button type="button" data-filter="published" aria-pressed="false">Published / accepted <span>6</span></button>
+        <button type="button" data-filter="review" aria-pressed="false">Under review <span>5</span></button>
+      </div>
+      <p id="publication-status" class="sr-only" aria-live="polite"></p>
+      <div class="publication-list">
+        <article class="publication" data-status="published">
+          <div class="pub-index">01</div><div class="pub-content"><div class="pub-meta"><span class="venue">CIKM 2026</span><span class="status-text">Accepted</span></div><h3><a href="https://github.com/aicb-ZhangLabs/STMoE">STMoE: Multi-Scale Mixture-of-Experts for Single-Cell Gene Expression Prediction from Histology</a></h3><p class="authors"><strong>Xi Li</strong>, Yaqi Hu, Ziheng Duan, Chaoyang Wang, Jing Zhang</p><div class="pub-links"><a href="https://github.com/aicb-ZhangLabs/STMoE">Code</a></div></div>
+        </article>
+        <article class="publication" id="pub-smmc" data-status="published">
+          <div class="pub-index">02</div><div class="pub-content"><div class="pub-meta"><span class="venue">NeurIPS 2026</span><span class="status-text">Accepted · Poster</span></div><h3><a href="https://neurips.cc/virtual/2026/poster/153914">sMMC-22M: A Context-Aware Dataset and Benchmark for Single-Cell Spatial Transcriptomics</a></h3><p class="authors"><strong>Xi Li</strong>, Yaqi Hu, Ziheng Duan, Diptanshu Sikdar, Yang Liu, Jing Zhang</p><div class="pub-links"><a href="https://neurips.cc/virtual/2026/poster/153914">Conference page</a></div></div>
+        </article>
+        <article class="publication" id="pub-targetsage" data-status="published">
+          <div class="pub-index">03</div><div class="pub-content"><div class="pub-meta"><span class="venue">NeurIPS 2026</span><span class="status-text">Accepted · Poster</span></div><h3><a href="https://openreview.net/forum?id=TtHAAMGp59">TargetSage: Identifying Therapeutic Target Genes with Interpretable and Robust LLM Reasoning</a></h3><p class="authors">Ziheng Duan, Tong Wu, <strong>Xi Li</strong>, Simon Dongbo Sun, Chaoyang Wang, Junhao Liu, Martin Renqiang Min, Jing Zhang</p><div class="pub-links"><a href="https://openreview.net/forum?id=TtHAAMGp59">OpenReview</a><a href="https://openreview.net/pdf?id=TtHAAMGp59">PDF</a><a href="https://neurips.cc/virtual/2026/poster/152330">Conference page</a></div></div>
+        </article>
+        <article class="publication" data-status="published">
+          <div class="pub-index">04</div><div class="pub-content"><div class="pub-meta"><span class="venue">CIKM 2025</span><span class="status-text">Published</span></div><h3><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12790625/">MUSE: A Multi-Slice Joint Analysis Method for Spatial Transcriptomics Experiments</a></h3><p class="authors">Ziheng Duan*, <strong>Xi Li*</strong>, Zhiqing Xiao, Rex Ying, Jing Zhang</p><div class="pub-links"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12790625/">Paper</a><a href="https://doi.org/10.1145/3746252.3761240">DOI</a><a href="https://github.com/RRRussell/MUSE">Code</a></div></div>
+        </article>
+        <article class="publication" data-status="published">
+          <div class="pub-index">05</div><div class="pub-content"><div class="pub-meta"><span class="venue">ICIP 2025</span><span class="status-text">Published</span></div><h3><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12407492/">DISCO: A Diffusion Model for Spatial Transcriptomics Data Completion</a></h3><p class="authors">Ziheng Duan, <strong>Xi Li</strong>, Zhuoyang Zhang, James Song, Jing Zhang</p><div class="pub-links"><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12407492/">Paper</a><a href="https://doi.org/10.1109/ICIP55913.2025.11084277">DOI</a></div></div>
+        </article>
+        <article class="publication" data-status="published">
+          <div class="pub-index">06</div><div class="pub-content"><div class="pub-meta"><span class="venue">BMVC 2024</span><span class="status-text">Published</span></div><h3><a href="https://bmvc2024.org/proceedings/991/">iHAST: Integrating Hybrid Attention for Super-Resolution in Spatial Transcriptomics</a></h3><p class="authors"><strong>Xi Li</strong>, Ziheng Duan, Yi Dai, Siwei Xu, Jing Zhang</p><div class="pub-links"><a href="https://bmvc2024.org/proceedings/991/">Paper</a><a href="https://bmva-archive.org.uk/bmvc/2024/papers/Paper_991/paper.pdf">PDF</a></div></div>
+        </article>
+        <article class="publication" data-status="review">
+          <div class="pub-index">07</div><div class="pub-content"><div class="pub-meta"><span class="venue">Nature Communications</span><span class="status-text under-review">Under review</span></div><h3>Spatially Indexed Single-Cell Morphology and Transcriptome Profiling by DBiC-seq</h3><p class="authors">Liyun Lin, Shuozhen Bao, <strong>Xi Li</strong>, Isaiah Yim, Dejiang Wang, Gaocai Li, Xiangjun Di, Shujie He, Junyi Xu, Kathryn Miller-Jensen, Jing Zhang, Rong Fan</p></div>
+        </article>
+        <article class="publication" data-status="review">
+          <div class="pub-index">08</div><div class="pub-content"><div class="pub-meta"><span class="venue">KDD 2027</span><span class="status-text under-review">Under review</span></div><h3>Context Is Not a Side Note: A Support-Calibrated Reliability Framework for Biomedical Foundation Models</h3><p class="authors"><strong>Xi Li</strong>, Ziheng Duan, Yi Dai, Yang Liu, Jing Zhang</p></div>
+        </article>
+        <article class="publication" id="pub-spine" data-status="review">
+          <div class="pub-index">09</div><div class="pub-content"><div class="pub-meta"><span class="venue">KDD 2027</span><span class="status-text under-review">Under review</span></div><h3><a href="https://openreview.net/forum?id=9jUUX5GboF">Spine: Disentangling Tissue Context and Perturbation-Conditioned Response Fields in Spatial Genomics</a></h3><p class="authors"><strong>Xi Li</strong>, Ziheng Duan, Simon Dongbo Sun, Martin Renqiang Min, Yang Liu, Jing Zhang</p><div class="pub-links"><a href="https://openreview.net/forum?id=9jUUX5GboF">OpenReview</a><a href="https://openreview.net/pdf?id=9jUUX5GboF">PDF</a></div></div>
+        </article>
+        <article class="publication" id="pub-ccr2" data-status="review">
+          <div class="pub-index">10</div><div class="pub-content"><div class="pub-meta"><span class="venue">Vascular Pharmacology</span><span class="status-text under-review">Under review</span></div><h3>CCR2 Deficiency Attenuates Flow-Induced Carotid Artery Remodeling</h3><p class="authors">Co-authors include Fu Gao and <strong>Xi Li</strong>; corresponding author: Yang Liu.</p></div>
+        </article>
+        <article class="publication" id="pub-circulation" data-status="review">
+          <div class="pub-index">11</div><div class="pub-content"><div class="pub-meta"><span class="venue">Circulation</span><span class="status-text under-review">Under review · Editorial consideration</span></div><h3>Cross-Species Multi-Omics Identifies a Conserved Fibrogenic Valvular Interstitial Cell Population across Mitral Valve Diseases</h3><p class="authors">Fu Gao, Ian Mason, Mingze Dong, Yao Lu, Di Zhang, Xing Lou, <strong>Xi Li</strong>, Irbaz Hameed, Mingyu Yang, Mei Zhong, Markus Krane, Giovanni Ferrari, George Tellides, Yang Liu, Rong Fan, Arnar Geirsson</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><div><p class="eyebrow">RESEARCH & PRACTICE</p><h2 id="experience-title">Experience</h2></div></div>
+      <div class="experience-columns">
+        <div><h3 class="column-title">Education & research</h3>
+          <div class="timeline-item"><p class="timeline-date">2023 — PRESENT</p><h4>University of California, Irvine</h4><p class="timeline-role">Ph.D. in Computer Science · Student Researcher</p><p>Computational pathology, spatial genomics, and multimodal biomedical machine learning.</p></div>
+          <div class="timeline-item"><p class="timeline-date">2022 — 2023</p><h4>Eastern Institute of Technology & Tsinghua</h4><p class="timeline-role">Research Assistant</p><p>Computer vision and multimodal learning.</p></div>
+          <div class="timeline-item compact"><p class="timeline-date">2019 — 2022</p><h4>Tsinghua University</h4><p class="timeline-role">M.S. in Computer Science and Technology</p></div>
+          <div class="timeline-item compact"><p class="timeline-date">2015 — 2019</p><h4>University of Science and Technology of China</h4><p class="timeline-role">B.S. in Information Security</p></div>
+        </div>
+        <div><h3 class="column-title">Applied AI & product</h3>
+          <div class="timeline-item"><p class="timeline-date">2021 — 2022</p><h4>Tsinghua Multimedia Lab</h4><p class="timeline-role">Researcher · AI Broadcast Production</p><p>Audio–visual modeling for automated multi-camera production, deployed at China's National Centre for the Performing Arts.</p></div>
+          <div class="timeline-item"><p class="timeline-date">2021</p><h4>ByteDance AI Lab</h4><p class="timeline-role">AI Product Manager Intern</p><p>Generative-imaging platforms and AI-assisted creative tools.</p></div>
+          <div class="timeline-item compact"><p class="timeline-date">2020</p><h4>ByteDance · Feishu / Lark</h4><p class="timeline-role">Data Product Intern · Enterprise Search</p></div>
+          <div class="timeline-item compact"><p class="timeline-date">2020</p><h4>Nolibox</h4><p class="timeline-role">Partner & Co-founder · AI Design Tools</p></div>
+        </div>
+      </div>
+      <div class="mentoring"><h3>Teaching & mentoring</h3><p>Graduate Teaching Assistant at UC Irvine for three academic terms. Research mentor for <a href="https://ucsc-ospo.netlify.app/project/osre26/uci-ics/omni-st/">Omni-ST</a>, an instruction-driven multimodal spatial-transcriptomics project in the 2026 UCSC Open Source Research Experience.</p></div>
+    </section>
+
+    <section class="cv-section" id="cv" aria-labelledby="cv-title">
+      <div><p class="eyebrow">GET IN TOUCH</p><h2 id="cv-title">Let's connect.</h2><p>For research collaborations and professional opportunities,<br class="desktop-break"> reach me at <a href="mailto:xil43@uci.edu">xil43@uci.edu</a>.</p></div>
+      <div class="cv-downloads"><a class="download-card" href="assets/cv/Xi_Li_Academic_CV.pdf" download><span><strong>Academic CV</strong><small>Research & editorial applications</small></span><span class="pdf-icon">PDF</span></a><a class="download-card" href="assets/cv/Xi_Li_Industry_Resume.pdf" download><span><strong>Industry résumé</strong><small>ML research, engineering & product</small></span><span class="pdf-icon">PDF</span></a></div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><p>© 2026 Xi Li</p><p>University of California, Irvine</p><a href="#about">Back to top</a></footer>
+</body>
+</html>

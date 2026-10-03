@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#f5f0e8"/>
+<g font-family="Arial,sans-serif" text-anchor="middle"><g fill="#fff" stroke="#d2c5b2"><rect x="48" y="68" width="162" height="58" rx="6"/><rect x="48" y="151" width="162" height="58" rx="6"/><rect x="48" y="234" width="162" height="58" rx="6"/></g>
+<g fill="#7a6443" font-size="19"><text x="129" y="104">Section 01</text><text x="129" y="187">Section 02</text><text x="129" y="270">Section 03</text></g>
+<g fill="none" stroke="#b9a88f" stroke-width="2"><path d="M210 97H275V180H338M210 180H338M210 263H275V180"/></g>
+<rect x="338" y="110" width="248" height="140" rx="7" fill="#8d7554"/><text x="462" y="151" fill="#fff" font-size="22">Shared representation</text><text x="462" y="186" fill="#efe7db" font-size="16">Joint spatial analysis</text><text x="462" y="218" fill="#efe7db" font-size="15">Across tissue sections</text><text x="320" y="330" fill="#98866f" font-size="12" letter-spacing="2">MULTI-SLICE INTEGRATION · CONCEPT</text></g></svg>

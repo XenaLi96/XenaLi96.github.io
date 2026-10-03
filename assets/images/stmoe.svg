@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+<rect width="640" height="360" fill="#f0f2ee"/>
+<g fill="none" stroke="#a6b6b4" stroke-width="2"><path d="M190 122H245V180H285M190 237H245V180M397 180H444"/></g>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="40" y="81" width="150" height="82" rx="7" fill="#fff" stroke="#ccd5d0"/><text x="115" y="116" fill="#2b554d" font-size="20">Local crop</text><text x="115" y="140" fill="#717d7a" font-size="14">Cell morphology</text>
+<rect x="40" y="196" width="150" height="82" rx="7" fill="#fff" stroke="#ccd5d0"/><text x="115" y="231" fill="#2b554d" font-size="20">Tissue crop</text><text x="115" y="255" fill="#717d7a" font-size="14">Spatial context</text>
+<rect x="285" y="121" width="112" height="118" rx="7" fill="#2f655c"/><text x="341" y="166" fill="#fff" font-size="20">Mixture</text><text x="341" y="194" fill="#fff" font-size="20">of experts</text><text x="341" y="219" fill="#d0e2dd" font-size="13">Organ-routed</text>
+<rect x="444" y="126" width="156" height="108" rx="7" fill="#fff" stroke="#ccd5d0"/><text x="522" y="167" fill="#2b554d" font-size="20">Single-cell</text><text x="522" y="194" fill="#2b554d" font-size="20">expression</text><text x="320" y="324" fill="#798783" font-size="12" letter-spacing="2">MULTI-SCALE PREDICTION · CONCEPT</text></g></svg>
