@@ -16,3 +16,5 @@
 .news-strip{display:block;padding:26px 0}.news-label{font-family:var(--serif);font-size:1.65rem;font-weight:400;letter-spacing:-.3px;line-height:1.3;white-space:normal;color:var(--ink);margin-bottom:16px}.news-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}.news-list li{display:flex;align-items:baseline;gap:12px}.news-star{flex:none;font-size:.95rem;line-height:1.65}.news-list p{font-size:.9375rem;line-height:1.85}
 @media(max-width:760px){.news-strip{padding:23px 0}.news-label{font-size:1.5rem}.news-list{gap:12px}.news-list p{font-size:.875rem}}
 .news-star{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
+.intro-education{margin-top:18px}
+@media(max-width:760px){.intro-education{grid-column:1 / -1;grid-row:5}.intro-links{grid-row:6}}
