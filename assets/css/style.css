@@ -17,4 +17,6 @@
 @media(max-width:760px){.news-strip{padding:23px 0}.news-label{font-size:1.5rem}.news-list{gap:12px}.news-list p{font-size:.875rem}}
 .news-star{font-family:'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif}
 .intro-education{margin-top:18px}
+.publications-page{padding-top:64px;padding-bottom:48px}.publication-page-header{flex-wrap:wrap;align-items:flex-end}.publications-page h1{font-family:var(--serif);font-size:3.25rem;font-weight:400;line-height:1.2;letter-spacing:-1.3px}.page-summary{font-size:.9375rem;color:var(--muted);margin-top:16px;max-width:620px}.publication-page-header .eyebrow{margin-bottom:12px}
+@media(max-width:760px){.publications-page{padding-top:40px;padding-bottom:24px}.publications-page h1{font-size:2.625rem}.page-summary{font-size:.875rem}}
 @media(max-width:760px){.intro-education{grid-column:1 / -1;grid-row:5}.intro-links{grid-row:6}}
